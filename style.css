@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRURg2siiGE8W_JnRVKiKNvghiCNPVjBflFbQ&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  font-family: 'Roboto Mono', monospace;
+  text-align: start;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#todos {
+  margin-top: 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 2fr);
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 6px #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.todo-item {
+  display: inline-flex;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: white;
+  box-shadow: 0px 0px 6px #ccc;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 16%;
+}
+
+button:hover {
+  background-color: rgb(87, 85, 85);
+}
+
+input {
+  padding: 15px 10px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 18px;
+}
+
+.completed {
+  background-color: #ccc;
+}
